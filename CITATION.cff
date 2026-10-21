@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: If you use SemanticStress, please cite the WACV 2027 paper.
+title: SemanticStress
+type: dataset
+authors:
+  - family-names: Zhao
+    given-names: Haoran
+  - family-names: Xiang
+    given-names: Biao
+  - family-names: Park
+    given-names: Sehyuk
+  - family-names: Hovy
+    given-names: Eduard
+  - family-names: Han
+    given-names: Caren
+preferred-citation:
+  type: conference-paper
+  title: 'SemanticStress: A Dose-Controlled Benchmark for Visual-Semantic Grounding'
+  authors:
+    - family-names: Zhao
+      given-names: Haoran
+    - family-names: Xiang
+      given-names: Biao
+    - family-names: Park
+      given-names: Sehyuk
+    - family-names: Hovy
+      given-names: Eduard
+    - family-names: Han
+      given-names: Caren
+  conference:
+    name: IEEE/CVF Winter Conference on Applications of Computer Vision
+  year: 2027
