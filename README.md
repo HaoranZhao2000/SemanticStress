@@ -1,10 +1,12 @@
-# SemanticStress
+<h1 align="center">SemanticStress<br>A dose-controlled benchmark for visual-semantic grounding</h1>
 
-### A dose-controlled benchmark for visual-semantic grounding
+<h3 align="center">Accepted at WACV 2027 (Datasets Track)</h3>
 
-Accepted at WACV 2027 (Datasets Track)
+<p align="center">
+  Haoran Zhao &nbsp;&nbsp; Biao Xiang &nbsp;&nbsp; Sehyuk Park &nbsp;&nbsp; Eduard Hovy &nbsp;&nbsp; Caren Han
+</p>
 
-Haoran Zhao · Biao Xiang · Sehyuk Park · Eduard Hovy · Caren Han
+---
 
 ![SemanticStress: grounded facts, four caption doses, and ordered comparisons](assets/semanticstress_teaser.png)
 
@@ -12,7 +14,7 @@ SemanticStress contains 446 image–caption ladders. Each ladder holds six groun
 
 This repository provides the dataset and the small amount of code needed to prepare its images. Source-image files are not redistributed.
 
-## Get the data ready
+## 🚀 Get the data ready
 
 The captions and box coordinates are already in [`data/ladders_n446.jsonl`](data/ladders_n446.jsonl). To download the corresponding Visual Genome images and draw the labeled boxes used by the benchmark:
 
@@ -40,7 +42,7 @@ print(captions["preserve"], captions["low"], captions["mid"], captions["high"])
 
 Run this from the repository root. Every row also includes `boxes`, `image_id`, image dimensions, and `doses`. The four caption keys are `preserve`, `low`, `mid`, and `high`, corresponding to doses 0, 2, 4, and 6. The dose is a count of contradicted facts within one ladder, not a general difficulty score across images.
 
-## Files
+## 📁 Files
 
 | Path | Purpose |
 |:--|:--|
@@ -52,7 +54,7 @@ Run this from the repository root. Every row also includes `boxes`, `image_id`, 
 
 The public release contains the final 446 ladders, not individual review notes or excluded candidates. It does not include model outputs or experiment-running code. See the paper for the evaluation protocol and reported results.
 
-## Citation
+## 📖 Citation
 
 ```bibtex
 @inproceedings{zhao2027semanticstress,
